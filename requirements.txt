@@ -1,6 +1,4 @@
-base64
 bokeh
 scipy
 pandas
 numpy
-
