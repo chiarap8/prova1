@@ -2,3 +2,4 @@ bokeh
 scipy
 pandas
 numpy
+base64
