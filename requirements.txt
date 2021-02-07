@@ -1,6 +1,5 @@
 bokeh
 scipy
-base64 
 pandas
 numpy
 io
