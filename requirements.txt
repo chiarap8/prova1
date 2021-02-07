@@ -1,6 +1,4 @@
 alabaster
-anaconda-client
-anaconda-project
 appdirs
 argh
 async-generator
