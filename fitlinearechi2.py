@@ -19,13 +19,6 @@ import io
 
 
 
-import sys
-#creo un bottone per chiudereil servere e avere il prompt di anaconda libero
-def button_callback():
-    sys.exit()  # Stop the server
-# Button to stop the server
-ex_button = Button(label="Clicca per chiudere l'applicazione", button_type="success")
-ex_button.on_click(button_callback)
 
 
 
@@ -183,7 +176,7 @@ grafico_button.on_click(fai_grafico)
 
 
 
-col1=column(paragrafo1, file_input, spazio1, grafico_button, ex_button, spazio2,paragrafo_funzione, table, tau_print)
+col1=column(paragrafo1, file_input, spazio1, grafico_button,  spazio2,paragrafo_funzione, table, tau_print)
 
 col2=column(p, p1 )
 curdoc().add_root(row([col1, col2]))
